@@ -1,0 +1,41 @@
+Arguments: 
+  /home/paul/.nvm/versions/node/v10.15.0/bin/node /home/paul/.nvm/versions/node/v10.15.0/bin/yarn add faker.js lodash-es
+
+PATH: 
+  /home/paul/.nvm/versions/node/v10.15.0/bin:/home/paul/.yarn/bin:/home/paul/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/paul/.dotnet/tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/faker.js/-/faker.js-2.0.0.tgz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (/home/paul/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:696:66)
+      at new ResponseError (/home/paul/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/home/paul/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:66161:16)
+      at Request.emit (events.js:182:13)
+      at Request.module.exports.Request.onRequestResponse (/home/paul/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:130467:10)
+      at ClientRequest.emit (events.js:187:15)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:556:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+      at TLSSocket.socketOnData (_http_client.js:442:20)
+      at TLSSocket.emit (events.js:182:13)
+
+npm manifest: 
+  {
+    "name": "typescript",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

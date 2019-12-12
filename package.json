@@ -2,5 +2,11 @@
   "name": "typescript",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "faker": "^4.1.0",
+    "lodash-es": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.3"
+  }
 }
